@@ -1,0 +1,29 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#caja{
+    display:flex;
+    flex-wrap:wrap;
+    width:200px;
+    padding:10px;
+    border:1px solid red;
+}
+.cuadro.caja.disabled{
+    pointer-events: none;
+}
+.cuadro{
+    border:1px solid red;
+    width:18px;
+    height:18px;
+    margin:4px;
+    font-size:0.65em;
+    color:red;
+    text-align:center;
+    line-height:18px;
+    user-select:none;
+    -moz-user-select:none;
+}
+#numeroPremiado{
+    color:red;
+    margin-bottom:3px;
+}
